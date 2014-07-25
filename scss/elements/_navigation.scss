@@ -1,0 +1,47 @@
+// Navigation
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+// Main Navigation with - Checkbox Toggle
+.navigation-main {
+  position: relative;
+  @include clearfix();
+
+  .navigation-toggle-label {
+    float: right;
+    padding: 5px $body-font-size;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+
+    span {
+      height: 2px;
+      display: block;
+      margin: 5px 0;
+      background: $body-font-color;
+      width: 25px;
+    }
+  }
+  .navigation-logo { margin: 0; }
+}
+// Basic functionality
+.navigation-toggle-label:hover { cursor: pointer; }
+.navigation-toggle,
+.navigation-collapse { display: none; }
+.navigation-toggle:checked ~ .navigation-collapse { display: block; }
+.navigation-toggle-label:hover span { background: darken($body-font-color, 15%); }
+
+@media screen and (min-width: $media-mobile-max) {
+  .navigation-toggle-label { display: none; }
+  .navigation-collapse {
+    display: block;
+
+    li { float: left; }
+  }
+  .navigation-logo {
+    float: left;
+  }
+}

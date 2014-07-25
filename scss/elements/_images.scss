@@ -1,0 +1,14 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.circle {
+    @include border-radius(50% 50%);
+
+  &.attention {
+      border: 10px solid $link-color;
+
+    &:hover { border-color: $link-color-dark; }
+  }
+}

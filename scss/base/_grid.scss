@@ -1,0 +1,55 @@
+// Defaults which you can freely override
+$grid-column-width: 60px;
+$grid-gutter-width: 20px;
+$grid-columns: 12;
+$grid-width: 960px;
+$grid-max-width: 100%;
+
+// BreakPoints
+$media-mobile-max: 767px;
+$media-tablet-min: 768px;
+$media-tablet-max: 1024px;
+$media-desktop-min: 1025px;
+
+
+//////////
+// GRID //
+//////////
+.wrapper {
+  max-width: $grid-max-width;
+  display: block;
+  margin: 0 auto;
+  width: ($grid-columns)*($grid-gutter-width+$grid-column-width);
+  @include clearfix();
+}
+.row {
+  margin-left: -($grid-gutter-width)*(.5);
+  margin-right: -($grid-gutter-width)*(.5);
+  @include clearfix();
+}
+[class^="column-"] {
+  display: block;
+  float: left;
+  padding: 0 ($grid-gutter-width)*(.5);
+}
+
+@for $i from 1 through $grid-columns {
+  .column-#{$i} { width: ($i)/($grid-columns)*(100%); }
+}
+
+@media screen and (max-width: $media-mobile-max) {
+  [class^="column-"] {
+    width: 100%;
+    float: none;
+  }
+}
+
+// Mobile columns that dont collapse
+[class^="column__mobile-"] {
+  display: block;
+  float: left;
+  padding: 0 ($grid-gutter-width)*(.5);
+}
+@for $i from 1 through $grid-columns {
+  .column__mobile-#{$i} { width: ($i)/($grid-columns)*(100%); }
+}

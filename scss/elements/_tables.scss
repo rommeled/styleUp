@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid $border-color-light;
+
+  thead,
+  tbody,
+  tfoot {
+    td {
+      padding: 3px 5px;
+    }
+  }
+
+  thead {
+    background: $border-color-light;
+
+    td { @extend .text-bold; }
+  }
+  tbody {
+    font-size: .9em;
+  }
+  tfoot {
+
+  }
+}

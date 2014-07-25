@@ -1,0 +1,53 @@
+[class^="list-style"] {
+  padding-left: 0;
+  margin: .35em 0 .5em 0;
+}
+
+.list-style-decimal {
+  padding-left: 1.3em;
+  list-style: decimal;
+}
+
+.list-style-checkmark,
+.list-style-checkmark-1,
+.list-style-checkmark-2,
+.list-style-arrow,
+.list-style-arrow-1,
+.list-style-arrow-2,
+.list-style-arrow-3,
+.list-style-arrow-4,
+.list-style-arrow-5,
+.list-style-plus,
+.list-style-square,
+.list-style-crossed,
+.list-style-minus {
+  list-style: none;
+
+  li:before { margin-right: .3em; }
+}
+
+.list-style-checkmark li:before,
+.list-style-checkmark-1 li:before{ content: "✓"; }
+.list-style-checkmark-2 li:before { content: "✓"; }
+.list-style-arrow li:before,
+.list-style-arrow-1 li:before { content: "➤"; }
+.list-style-arrow-2 li:before { content: "→"; }
+.list-style-arrow-3 li:before { content: "❯"; }
+.list-style-arrow-4 li:before { content: "➣"; }
+.list-style-arrow-5 li:before { content: "￫"; }
+.list-style-plus li:before { content: "+"; }
+.list-style-square li:before { content: "■"; }
+.list-style-crossed li:before { content: "✗"; }
+.list-style-minus li:before { content: "÷"; }
+
+
+.list-style-none {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li:before {
+    content: "";
+    margin-right: 0;
+  }
+}

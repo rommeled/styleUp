@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/**
+Rommeled
+*/
+
+/* Variables
+==================================================================== */
+$body-background-color:                                        #ffffff;
+$body-font-color:                                              #666666;
+$body-font-family:                             'Noto Sans', sans-serif;
+$body-line-height:                                               1.4em;
+$body-font-size:                                                   1em;
+
+$link-color:                                                   #e85152;
+$link-color-dark:                                  darken(#e85152, 5%);
+$link-color-light:                                lighten(#e85152, 5%);
+
+$border-color-light:                                           #f1f2f2;
+$border-color-dark:                   darken($border-color-light, 25%);
+
+/* Compass mixins
+========================================= */
+
+// Mixins
+@import "compass/reset";
+@import "compass/css3/border-radius";
+@import "compass/css3/background-size";
+@import "compass/css3/transition";
+
+/* The GUTS of the page
+========================================= */
+
+// Base styles
+@import "base/grid.scss";
+@import "base/doc.scss";
+@import "base/typography.scss";
+@import "base/align";
+
+// Elements
+@import "elements/lists.scss";
+@import "elements/images.scss";
+@import "elements/tables.scss";
+@import "elements/tabs";
+@import "elements/navigation";
+
+
+// Theme for styleguide
+@import "styleguide";

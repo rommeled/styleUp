@@ -1,0 +1,43 @@
+/** Tabs styling
+================================== **/
+.navigation-tabs {
+  height: 30px;
+  clear: both;
+  display: block;
+  margin-bottom: -1px;
+
+  li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+    background: $border-color-dark;
+    border-top: 1px solid $border-color-light;
+    border-right: 1px solid$border-color-light;
+    border-left: 1px solid $border-color-light;
+
+    a {
+      padding: 10px;
+      font-weight: bold;
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .current {
+    background: #fff;
+    border-bottom: 1px solid #fff;
+
+    a { color: $body-font-color; }
+  }
+}
+.tab {
+  border: 1px solid $border-color-light;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+.tab-content {
+  padding: 10px;
+  display: none;
+}
+#tab-1 { display: block; }
