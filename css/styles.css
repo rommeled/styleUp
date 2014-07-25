@@ -1,86 +1,676 @@
-/*
-Syntax error: Undefined mixin 'clearfix'.
-        on line 23 of /Users/rommel/sites/rommeled-styleguide/scss/base/_grid.scss, in `clearfix'
-        from line 23 of /Users/rommel/sites/rommeled-styleguide/scss/base/_grid.scss
-        from line 35 of /Users/rommel/sites/rommeled-styleguide/scss/styles.scss
-
-Backtrace:
-/Users/rommel/sites/rommeled-styleguide/scss/base/_grid.scss:23:in `clearfix'
-/Users/rommel/sites/rommeled-styleguide/scss/base/_grid.scss:23
-/Users/rommel/sites/rommeled-styleguide/scss/styles.scss:35
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/bin/compass:44:in `call'
-/Users/rommel/.rvm/gems/ruby-2.1.2@global/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-/Users/rommel/.rvm/rubies/ruby-2.1.2/bin/compass:23:in `load'
-/Users/rommel/.rvm/rubies/ruby-2.1.2/bin/compass:23:in `<main>'
-/Users/rommel/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
-/Users/rommel/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+@charset "UTF-8";
+/**
+Rommeled
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'clearfix'.\A         on line 23 of /Users/rommel/sites/rommeled-styleguide/scss/base/_grid.scss, in `clearfix'\A         from line 23 of /Users/rommel/sites/rommeled-styleguide/scss/base/_grid.scss\A         from line 35 of /Users/rommel/sites/rommeled-styleguide/scss/styles.scss"; }
+/* Variables
+==================================================================== */
+/* Compass mixins
+========================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* The GUTS of the page
+========================================= */
+.wrapper {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 960px;
+  *zoom: 1;
+}
+.wrapper:before, .wrapper:after {
+  content: "";
+  display: table;
+}
+.wrapper:after {
+  clear: both;
+}
+
+.row {
+  margin-left: -10px;
+  margin-right: -10px;
+  *zoom: 1;
+}
+.row:before, .row:after {
+  content: "";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+[class^="column-"] {
+  display: block;
+  float: left;
+  padding: 0 10px;
+}
+
+.column-1 {
+  width: 8.33333%;
+}
+
+.column-2 {
+  width: 16.66667%;
+}
+
+.column-3 {
+  width: 25%;
+}
+
+.column-4 {
+  width: 33.33333%;
+}
+
+.column-5 {
+  width: 41.66667%;
+}
+
+.column-6 {
+  width: 50%;
+}
+
+.column-7 {
+  width: 58.33333%;
+}
+
+.column-8 {
+  width: 66.66667%;
+}
+
+.column-9 {
+  width: 75%;
+}
+
+.column-10 {
+  width: 83.33333%;
+}
+
+.column-11 {
+  width: 91.66667%;
+}
+
+.column-12 {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  [class^="column-"] {
+    width: 100%;
+    float: none;
+  }
+}
+[class^="column__mobile-"] {
+  display: block;
+  float: left;
+  padding: 0 10px;
+}
+
+.column__mobile-1 {
+  width: 8.33333%;
+}
+
+.column__mobile-2 {
+  width: 16.66667%;
+}
+
+.column__mobile-3 {
+  width: 25%;
+}
+
+.column__mobile-4 {
+  width: 33.33333%;
+}
+
+.column__mobile-5 {
+  width: 41.66667%;
+}
+
+.column__mobile-6 {
+  width: 50%;
+}
+
+.column__mobile-7 {
+  width: 58.33333%;
+}
+
+.column__mobile-8 {
+  width: 66.66667%;
+}
+
+.column__mobile-9 {
+  width: 75%;
+}
+
+.column__mobile-10 {
+  width: 83.33333%;
+}
+
+.column__mobile-11 {
+  width: 91.66667%;
+}
+
+.column__mobile-12 {
+  width: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #666666;
+}
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.4em;
+}
+
+body {
+  background: white;
+  font: "Noto Sans", sans-serif;
+  color: #666666;
+  font-size: 1em;
+  line-height: 1.4em;
+  width: 100%;
+  height: 100%;
+  *zoom: 1;
+}
+body:before, body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+
+::-moz-selection,
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f1f2f2;
+  margin: 1em 0;
+  padding: 0;
+}
+
+a {
+  color: #e85152;
+}
+a:hover {
+  color: #e53a3c;
+}
+
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: .25em 0 .5em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1em;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+em {
+  font-style: italic;
+}
+
+p,
+.text-paragraph,
+.heading-section {
+  font-size: 1em;
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-bold, .table thead td,
+b,
+strong {
+  font-weight: bold;
+}
+
+small {
+  font-size: .80em;
+}
+
+blockquote {
+  padding-left: 35px;
+  margin: .5em 0;
+  color: #8c8c8c;
+}
+blockquote:before {
+  content: "”";
+  letter-spacing: -1px;
+  position: absolute;
+  margin-left: -35px;
+  font-size: 4em;
+  margin-top: .25em;
+}
+
+.heading-section {
+  text-transform: uppercase;
+  border-bottom: 1px solid #afb5b5;
+  color: #262626;
+}
+
+.lead {
+  font-size: 1.45em;
+  letter-spacing: 1px;
+}
+
+.align-left {
+  float: left;
+}
+
+.align-right {
+  float: right;
+}
+
+.align-center {
+  display: block;
+  text-align: center;
+}
+
+[class^="list-style"] {
+  padding-left: 0;
+  margin: .35em 0 .5em 0;
+}
+
+.list-style-decimal {
+  padding-left: 1.3em;
+  list-style: decimal;
+}
+
+.list-style-checkmark,
+.list-style-checkmark-1,
+.list-style-checkmark-2,
+.list-style-arrow,
+.list-style-arrow-1,
+.list-style-arrow-2,
+.list-style-arrow-3,
+.list-style-arrow-4,
+.list-style-arrow-5,
+.list-style-plus,
+.list-style-square,
+.list-style-crossed,
+.list-style-minus {
+  list-style: none;
+}
+.list-style-checkmark li:before,
+.list-style-checkmark-1 li:before,
+.list-style-checkmark-2 li:before,
+.list-style-arrow li:before,
+.list-style-arrow-1 li:before,
+.list-style-arrow-2 li:before,
+.list-style-arrow-3 li:before,
+.list-style-arrow-4 li:before,
+.list-style-arrow-5 li:before,
+.list-style-plus li:before,
+.list-style-square li:before,
+.list-style-crossed li:before,
+.list-style-minus li:before {
+  margin-right: .3em;
+}
+
+.list-style-checkmark li:before,
+.list-style-checkmark-1 li:before {
+  content: "✓";
+}
+
+.list-style-checkmark-2 li:before {
+  content: "✓";
+}
+
+.list-style-arrow li:before,
+.list-style-arrow-1 li:before {
+  content: "➤";
+}
+
+.list-style-arrow-2 li:before {
+  content: "→";
+}
+
+.list-style-arrow-3 li:before {
+  content: "❯";
+}
+
+.list-style-arrow-4 li:before {
+  content: "➣";
+}
+
+.list-style-arrow-5 li:before {
+  content: "￫";
+}
+
+.list-style-plus li:before {
+  content: "+";
+}
+
+.list-style-square li:before {
+  content: "■";
+}
+
+.list-style-crossed li:before {
+  content: "✗";
+}
+
+.list-style-minus li:before {
+  content: "÷";
+}
+
+.list-style-none {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list-style-none li:before {
+  content: "";
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.circle {
+  -webkit-border-radius: 50% 50%;
+  -moz-border-radius: 50% 50%;
+  -ms-border-radius: 50% 50%;
+  -o-border-radius: 50% 50%;
+  border-radius: 50% 50%;
+}
+.circle.attention {
+  border: 10px solid #e85152;
+}
+.circle.attention:hover {
+  border-color: #e53a3c;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #f1f2f2;
+}
+.table thead td,
+.table tbody td,
+.table tfoot td {
+  padding: 3px 5px;
+}
+.table thead {
+  background: #f1f2f2;
+}
+.table tbody {
+  font-size: .9em;
+}
+
+/** Tabs styling
+================================== **/
+.navigation-tabs {
+  height: 30px;
+  clear: both;
+  display: block;
+  margin-bottom: -1px;
+}
+.navigation-tabs li {
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-right: 10px;
+  background: #afb5b5;
+  border-top: 1px solid #f1f2f2;
+  border-right: 1px solid #f1f2f2;
+  border-left: 1px solid #f1f2f2;
+}
+.navigation-tabs li a {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+}
+.navigation-tabs .current {
+  background: #fff;
+  border-bottom: 1px solid #fff;
+}
+.navigation-tabs .current a {
+  color: #666666;
+}
+
+.tab {
+  border: 1px solid #f1f2f2;
+  background: #ffffff;
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  padding: 10px;
+  display: none;
+}
+
+#tab-1 {
+  display: block;
+}
+
+.navigation {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-main {
+  position: relative;
+  *zoom: 1;
+}
+.navigation-main:before, .navigation-main:after {
+  content: "";
+  display: table;
+}
+.navigation-main:after {
+  clear: both;
+}
+.navigation-main .navigation-toggle-label {
+  float: right;
+  padding: 5px 1em;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+.navigation-main .navigation-toggle-label span {
+  height: 2px;
+  display: block;
+  margin: 5px 0;
+  background: #666666;
+  width: 25px;
+}
+.navigation-main .navigation-logo {
+  margin: 0;
+}
+
+.navigation-toggle-label:hover {
+  cursor: pointer;
+}
+
+.navigation-toggle,
+.navigation-collapse {
+  display: none;
+}
+
+.navigation-toggle:checked ~ .navigation-collapse {
+  display: block;
+}
+
+.navigation-toggle-label:hover span {
+  background: #404040;
+}
+
+@media screen and (min-width: 767px) {
+  .navigation-toggle-label {
+    display: none;
+  }
+
+  .navigation-collapse {
+    display: block;
+  }
+  .navigation-collapse li {
+    float: left;
+  }
+
+  .navigation-logo {
+    float: left;
+  }
+}
+header, footer, section {
+  margin-bottom: 50px;
+}
+
+header#header {
+  padding: 1em;
+  background: url(../images/topbg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-height: 100%;
+}
+
+.navigation-main .navigation-collapse > ul a {
+  padding: 1.5em 0;
+}
+.navigation-main a,
+.navigation-main a:visited {
+  text-decoration: none;
+  color: #f1f2f2;
+}
+
+@media screen and (min-width: 767px) {
+  .navigation-main .navigation-collapse {
+    text-align: right;
+  }
+  .navigation-main .navigation-collapse > ul {
+    margin-top: .4em;
+    display: inline-block;
+  }
+  .navigation-main .navigation-collapse > ul a {
+    padding: 1.5em .7em;
+  }
+}
+#grid .row {
+  margin-bottom: 10px;
+}
+#grid [class^="column"] > span {
+  background: #f1f2f2;
+  display: block;
+  border-radius: 4px;
+  height: 15px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 1em;
+}
