@@ -3,11 +3,9 @@ title: Rommeled Styleguide
 email: mr@rommel.dk
 description: "Free basic styleguide to speed up your next project."
 baseurl: ""
-url: "http://rommel.dk"
+#url: "http://rommel.dk"
 # twitter_username: mrommel
 github_username:  rommeled
-
-source: "_site"
 
 # Build settings
 markdown: kramdown
