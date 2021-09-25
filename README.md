@@ -5,4 +5,4 @@ Framework for fast front-end developing
 
 --------- UNDER DEVELOPMENT ---------
 
-- Check it out @ http://rommeled.github.io/styleUp/
+- Check it out @ https://rommeled.github.io/styleUp/
